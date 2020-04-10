@@ -12,6 +12,8 @@ set BUILDDIR=build
 
 if "%1" == "" goto help
 
+if "%1" == "github" goto github
+
 %SPHINXBUILD% >NUL 2>NUL
 if errorlevel 9009 (
     echo.
@@ -30,6 +32,11 @@ goto end
 
 :help
 %SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS%
+goto end
+
+:github
+%SPHINXBUILD% -M html %SOURCEDIR% %BUILDDIR% %SPHINXOPTS%
+xcopy build\html docs
 
 :end
 popd
