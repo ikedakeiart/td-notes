@@ -24,9 +24,9 @@ copyright = u'2020, ikedakeiart'
 author = u'ikedakeiart'
 
 # The short X.Y version
-version = u''
+version = u'0.0.1'
 # The full version, including alpha/beta/rc tags
-release = u''
+release = u'0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
