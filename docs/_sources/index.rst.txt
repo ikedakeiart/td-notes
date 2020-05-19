@@ -1,20 +1,9 @@
-.. TD Notes documentation master file, created by
-   sphinx-quickstart on Tue Mar 24 15:25:20 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to TD Notes's documentation!
-====================================
+Welcome to TD notes!
+####################
+This TD (Technical Director) notes contain useful general resources and programming topics especially for a tool development.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 4
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    self
+    python_dev/design_pattern

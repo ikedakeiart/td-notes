@@ -1,0 +1,11 @@
+Development in Python
+#####################
+
+Introduction
+------------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   python_dev/design_pattern
